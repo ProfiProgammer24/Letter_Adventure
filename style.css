@@ -1,0 +1,16 @@
+/* Stil für die Bubbles */
+.bubble {
+    -fx-background-color: lightblue; /* Hintergrundfarbe der Bubble */
+    -fx-padding: 10px; /* Innenabstand der Bubble */
+    -fx-border-radius: 50px; /* Runde Ecken für die Bubble */
+    -fx-font-size: 16px; /* Schriftgröße in der Bubble */
+    -fx-font-weight: bold; /* Fettschrift in der Bubble */
+    -fx-cursor: hand; /* Zeige Handcursor beim Überfahren der Bubble mit der Maus */
+}
+
+/* Stil für die Bubbles beim Überfahren mit der Maus (Hover) */
+.bubble:hover {
+    -fx-background-color: lightcyan; /* Hintergrundfarbe ändern beim Überfahren */
+    -fx-border-color: darkblue; /* Randfarbe ändern beim Überfahren */
+    -fx-border-width: 2px; /* Randbreite erhöhen beim Überfahren */
+}
